@@ -47,6 +47,11 @@
             <version>${langchain4j.version}</version>
         </dependency>-->
 
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.5</version> <!-- 请检查并使用最新的版本 -->
+        </dependency>
     </dependencies>
 
     <build>
