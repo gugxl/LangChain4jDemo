@@ -2,7 +2,7 @@ package com.gugu.test;
 
 import dev.langchain4j.model.openai.OpenAiChatModel;
 
-public class Main {
+public class HelloWorld {
     public static void main(String[] args) {
         String apiKey = "demo";
         OpenAiChatModel model = OpenAiChatModel.withApiKey(apiKey);
